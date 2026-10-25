@@ -5,11 +5,11 @@
 #print(name)
 #print(cat)
 
-#name="prakash"
-#age="27"
+name="prakash"
+age="27"
 
-#print("my name is",name)
-#print("my age is",age)
+print("my name is",name)
+print("my age is",age)
 
 #naming variable rule 
 # 1. variable must be start with latter or underscore but not number 
@@ -35,3 +35,10 @@ my_bike_name="bmw"
 #intv qtn what is PEP8=(python enhancement proposal)=lower snake case -stander mostly use 
  
 
+#input()----> it's inbuild function
+#name=input("enter your name : ")
+#age="28"
+#home="sarlahi"
+#print("my name is" ,name)
+#print("my age is" ,age)
+#print("i am from" ,home)

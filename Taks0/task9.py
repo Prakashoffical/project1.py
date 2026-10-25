@@ -1,0 +1,1 @@
+# Write a program to validate whether an email ends with '@gmail.com'.

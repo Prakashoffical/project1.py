@@ -70,10 +70,10 @@
 #                          split 
 
 # a="my name is prakash"
-#email="prakashbishwakarma19@gmail.com"
+# email="prakashbishwakarma19@gmail.com"
 # print(a.split())
 # print(a.split(a))
-#print(email.split("@"))
+# print(email.split("@"))
 
 #password="prakash"
 
@@ -88,11 +88,11 @@
 #name="prakash1999"
 #print(name.strip("123456789"))
 
-# #domain="www.facebook.com"
+domain="www.facebook.com"
 # domain=input("enter your domin name : ")
 # print(domain.lstrip("w.").rstrip(".com"))
 # ------> mustly we use. for data clining.
-# print(domain.removeprefix("www.").removesuffix(".com"))
+print(domain.removeprefix("www.").removesuffix(".com"))
 # ----> thats remove exat what we give to remove 
 
 # 

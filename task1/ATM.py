@@ -3,13 +3,16 @@ print("welcome to ATM machine ")
       
 Balance=1000.0
 pin_code=1111
+attemp=3
 
 print("processing........")
 
-user=int(input("enter your pin_code : "))
+while attemp>0:
 
-if user == pin_code:
-    while True:
+    user=int(input("enter your pin_code : "))
+
+    if user == pin_code:
+      while True:
         print(''' 
                ============================  ATM MENU ==========================
                1.Balance check
@@ -42,5 +45,10 @@ if user == pin_code:
             break
 
 
+    else:
+        print("⛔ incorrect pin_code , please try again ")
+        attemp-=1
+        print(f"you have {attemp} left")
+
 else:
-    print("⛔ incorrect pin_code , please try again ")
+    print("too manny attemp your card is block")

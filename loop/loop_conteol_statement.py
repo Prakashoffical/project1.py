@@ -29,13 +29,13 @@
 
 #else:    
 
-a=[2,1,3,4,0,5,6] # if we add zero
+# a=[2,1,3,4,0,5,6] # if we add zero
 
-for i in a:
-    # print(i)
-    if i == 0:
-        print("zero is found!!!")
-        break
+# for i in a:
+#     # print(i)
+#     if i == 0:
+#         print("zero is found!!!")
+#         break
 
-else:
-    print("zero is not available. loop end")
+# else:
+#     print("zero is not available. loop end")
